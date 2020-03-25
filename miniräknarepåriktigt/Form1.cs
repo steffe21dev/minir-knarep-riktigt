@@ -185,8 +185,15 @@ namespace miniräknarepåriktigt
 
                 switch (senastoperation)
             {
+            
+            
+              /* Snyggt!
+                
+              */
                 case "+":
                     
+                   //Logiken du ska ha här lär vara något i stil med -> MinTextbox.Text = (double.Parse(Mintextbox.Text + sista talet som skrevs in).ToString();
+
                     MinTextbox.Text = (Tal + NyttTal).ToString();
                     //Tal =  Tal + NyttTal;
                     
